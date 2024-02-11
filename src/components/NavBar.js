@@ -5,6 +5,10 @@ function NavBar({ color, title }) {
     black: "navbar-inverse",
     white: "navbar-default",
   };
+ 
+
+  console.log("Component is rendering with color:", color);
+  console.log("Component is rendering with title:", title);
 
   return (
     <nav className={`navbar ${colors[color]}`}>
